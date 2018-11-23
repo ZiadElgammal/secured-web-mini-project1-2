@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   /// databasr cretantials
   $servername = "localhost";
   $username = "root";
-  $password = "";
+  $password = "machine1";
   $dbname = "contacts";
   /// Create connection
   $conn = new mysqli($servername, $username, $password,$dbname);
